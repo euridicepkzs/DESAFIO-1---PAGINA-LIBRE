@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4B5; /* Color de fondo en tono naranja claro */
+}
+
+header {
+    background-color: #FFA500; /* Color de fondo del encabezado en naranja */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #FF8C00; /* Línea inferior del encabezado en tono más oscuro de naranja */
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 36px; /* Tamaño del título principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.book {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book h2 {
+    margin-top: 0;
+    font-size: 24px; /* Tamaño del título de la serie */
+    color: #FF6347; /* Color del título en tono rojo anaranjado */
+}
+
+.book p {
+    margin-bottom: 10px;
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.cover {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.subpage {
+    margin-top: 20px;
+}
+
+.subpage h3 {
+    font-size: 20px; /* Tamaño del título del libro */
+    color: #FF6347; /* Color del título en tono rojo anaranjado */
+    margin-bottom: 10px;
+}
+
+.subpage h3 a {
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    color: #FF6347; /* Color del enlace en tono rojo anaranjado */
+}
+
+.subpage h3 a:hover {
+    text-decoration: underline; /* Subrayar enlace al pasar el cursor sobre él */
+}
